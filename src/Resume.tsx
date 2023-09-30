@@ -29,7 +29,7 @@ function Resume() {
                           <div>
                               <h2 className='text-lg text-foreground font-bold'>EDUCATION</h2>
                               <div>
-                                  <p className='font-semibold text-primary'>MANIPAL UNIVERSITY, JAIPUR</p>
+                                  <p className='font-semibold text-base text-primary'>MANIPAL UNIVERSITY, JAIPUR</p>
                                   <p className='text-secondary text-sm font-medium'>2022 - Present | Bachelor of Technology</p>
                               </div>
                               <div className='text-sm'>
