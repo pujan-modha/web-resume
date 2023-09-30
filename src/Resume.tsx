@@ -18,11 +18,11 @@ function Resume() {
                           <div>
                               <h2 className='text-lg font-semibold'>CONTACT</h2>
                               <ul>
-                                  <li><span className='font-semibold text-primary'>GitHub: </span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>github.com/pujan-modha<span className='text-primary opacity-50'>↗</span></span></a></li>
-                                  <li><span className='font-semibold text-primary'>LinkedIn: </span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>linkedin.com/in/pujan-modha<span className='text-primary opacity-50'>↗</span></span></a></li>
-                                  <li><span className='font-semibold text-primary'>Twitter: </span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>twitter.com/pujan_modha<span className='text-primary opacity-50'>↗</span></span></a></li>
-                                  <li><span className='font-semibold text-primary'>E-Mail: </span><a href="mailto:pujan@ieee.org" target="_noref"><span className='hover:text-primary text-secondary font-light'>pujan@ieee.org<span className='text-primary opacity-50'>↗</span></span></a></li>
-                                  <li><span className='font-semibold text-primary'>Phone: </span><a href="tel:+91 9484856107" target="_noref"><span className='hover:text-primary text-secondary font-light'>+91 9484856107<span className='text-primary opacity-50'>↗</span></span></a></li>
+                                  <li><span className='font-medium text-primary'>GitHub: </span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>github.com/pujan-modha<span className='text-primary opacity-50'>↗</span></span></a></li>
+                                  <li><span className='font-medium text-primary'>LinkedIn: </span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>linkedin.com/in/pujan-modha<span className='text-primary opacity-50'>↗</span></span></a></li>
+                                  <li><span className='font-medium text-primary'>Twitter: </span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>twitter.com/pujan_modha<span className='text-primary opacity-50'>↗</span></span></a></li>
+                                  <li><span className='font-medium text-primary'>E-Mail: </span><a href="mailto:pujan@ieee.org" target="_noref"><span className='hover:text-primary text-secondary font-light'>pujan@ieee.org<span className='text-primary opacity-50'>↗</span></span></a></li>
+                                  <li><span className='font-medium text-primary'>Phone: </span><a href="tel:+91 9484856107" target="_noref"><span className='hover:text-primary text-secondary font-light'>+91 9484856107<span className='text-primary opacity-50'>↗</span></span></a></li>
                               </ul>
                           </div>
                           <hr className='md:hidden mx-auto border border-opacity-50 border-foreground my-[2.5%] w-full'/>
@@ -34,9 +34,9 @@ function Resume() {
                               </div>
                               <div className='text-sm'>
                                   <ul>
-                                      <li><span className='font-semibold text-primary'>Major: </span><span className='text-primary font-light'>Computer Science</span></li>
-                                      <li><span className='font-semibold text-primary'>Minor: </span><span className='text-primary font-light'>TBD</span></li>
-                                      <li><span className='font-semibold text-primary'>GPA: </span><span className='text-primary font-light'>7.5</span></li>
+                                      <li><span className='font-medium text-primary'>Major: </span><span className='text-primary font-light'>Computer Science</span></li>
+                                      <li><span className='font-medium text-primary'>Minor: </span><span className='text-primary font-light'>TBD</span></li>
+                                      <li><span className='font-medium text-primary'>GPA: </span><span className='text-primary font-light'>7.5</span></li>
                                   </ul>
                               </div>
                           </div>
@@ -48,7 +48,7 @@ function Resume() {
                       <div className='grid md:grid-cols-2'>
                           <div className='md:row-span-2 gap-y-[5%]'>
                               <div>
-                                  <p className='font-semibold text-primary'>LANGUAGES</p>
+                                  <p className='font-medium text-primary'>LANGUAGES</p>
                                   <div>
                                       <ul className='flex flex-wrap gap-[1%]'>
                                           <li className='text-sm bg-secondary text-background px-[2.5%] mb-[1%]'>C/C++</li>
@@ -63,7 +63,7 @@ function Resume() {
                                   </div>
                               </div>
                               <div>
-                                  <p className='font-semibold text-primary'>TECHNOLOGIES</p>
+                                  <p className='font-medium text-primary'>TECHNOLOGIES</p>
                                   <div>
                                       <ul className='flex flex-wrap gap-[1%]'>
                                           <li className='text-sm bg-secondary text-background px-[2.5%] mb-[1%]'>React.js</li>
@@ -82,7 +82,7 @@ function Resume() {
                               </div>
                           </div>
                           <div>
-                              <p className='font-semibold text-primary'>SOFT SKILLS</p>
+                              <p className='font-medium text-primary'>SOFT SKILLS</p>
                               <div>
                                   <ul className='flex flex-wrap gap-[1%]'>
                                       <li className='text-sm bg-secondary text-background px-[2.5%] mb-[1%]'>Communication</li>
@@ -110,8 +110,8 @@ function Resume() {
                           </div>
                           <div className='text-xs text-primary'>
                               <ul>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
                               </ul>
                           </div>
                       </div>
@@ -126,8 +126,8 @@ function Resume() {
                           </div>
                           <div className='text-xs text-primary'>
                               <ul>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
                               </ul>
                           </div>
                       </div>
@@ -142,8 +142,8 @@ function Resume() {
                           </div>
                           <div className='text-xs text-primary'>
                               <ul>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
                               </ul>
                           </div>
                       </div>
@@ -162,8 +162,8 @@ function Resume() {
                           </div>
                           <div className='text-xs text-primary'>
                               <ul>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
                               </ul>
                           </div>
                       </div>
@@ -178,8 +178,8 @@ function Resume() {
                           </div>
                           <div className='text-xs text-primary'>
                               <ul>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
-                                  <li><span className='text-secondary text-base font-black'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
+                                  <li><span className='text-secondary'> › </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus quis massa hendrerit pulvinar. Vestibulum facilisis risus at aliquet posuere.</li>
                               </ul>
                           </div>
                       </div>
