@@ -3,6 +3,19 @@
 *{
     background-color: #f8f8f2;
     font-family: 'JetBrains Mono', monospace;
+    print-color-adjust: economy;
+}
+
+@media print {
+    #non-printable {
+        display: none !important;
+    }
+    @page {
+        size: A4;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: #f8f8f2;
+    }
 }
 
 ::-moz-selection { /* Code for Firefox */
