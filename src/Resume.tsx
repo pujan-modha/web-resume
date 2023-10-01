@@ -177,9 +177,9 @@ function Resume() {
                           </div>
                           <div>
                               <ul className='flex flex-wrap gap-[1%]'>
-                                  <li className='print:text-foreground print:border text-xs bg-secondary text-background px-[1%] my-[0.5%]'>React.js</li>
-                                  <li className='print:text-foreground print:border text-xs bg-secondary text-background px-[1%] my-[0.5%]'>Node.js</li>
-                                  <li className='print:text-foreground print:border text-xs bg-secondary text-background px-[1%] my-[0.5%]'>Vercel</li>
+                                  <li className='print:text-foreground print:border text-xs border border-secondary text-secondary px-[1%] my-[0.5%]'>React.js</li>
+                                  <li className='print:text-foreground print:border text-xs border border-secondary text-secondary px-[1%] my-[0.5%]'>Node.js</li>
+                                  <li className='print:text-foreground print:border text-xs border border-secondary text-secondary px-[1%] my-[0.5%]'>Vercel</li>
                               </ul>
                           </div>
                           <div className='text-sm text-primary'>
@@ -200,9 +200,9 @@ function Resume() {
                           </div>
                           <div>
                               <ul className='flex flex-wrap gap-[1%]'>
-                                  <li className='print:text-foreground print:border text-xs bg-secondary text-background px-[1%] my-[0.5%]'>Bash</li>
-                                  <li className='print:text-foreground print:border text-xs bg-secondary text-background px-[1%] my-[0.5%]'>Git</li>
-                                  <li className='print:text-foreground print:border text-xs bg-secondary text-background px-[1%] my-[0.5%]'>Python</li>
+                                  <li className='print:text-foreground print:border text-xs border border-secondary text-secondary px-[1%] my-[0.5%]'>Bash</li>
+                                  <li className='print:text-foreground print:border text-xs border border-secondary text-secondary px-[1%] my-[0.5%]'>Git</li>
+                                  <li className='print:text-foreground print:border text-xs border border-secondary text-secondary px-[1%] my-[0.5%]'>Python</li>
                               </ul>
                           </div>
                           <div className='text-sm text-primary'>
