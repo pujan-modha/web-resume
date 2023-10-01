@@ -14,7 +14,8 @@ function Resume() {
                     <section>
                         <div className='text-center mx-auto align-middle print:mt-0 mt-[5%]'>
                             <h1 className='text-5xl font-bold md:tracking-wide md:my-0 my-[2.5%]'><span
-                                className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide'>P</span>ujan<span className='-tracking-widest'> </span><span
+                                className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide'>P</span>ujan<span
+                                className='-tracking-widest'> </span><span
                                 className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide'>M</span>odha
                             </h1>
                             <p className='mt-[1%] print:my-[1%] text-primary font-semibold text-xl'>Full-Stack
@@ -30,30 +31,33 @@ function Resume() {
                                     <li className='print:text-center md:text-center'><span
                                         className='font-semibold text-primary'><FontAwesomeIcon
                                         icon={faSquareEnvelope} size='lg'
-                                        style={{color: "#44475a"}}/><span> </span></span><a
+                                        style={{color: "#44475a"}}/><span className='-tracking-widest'> </span></span><a
                                         href="mailto:pujan@ieee.org" target="_noref"><span
-                                        className='hover:text-primary text-secondary font-light'>pujan@ieee.org<span
+                                        className='hover:text-primary text-secondary font-light hover:underline'>pujan@ieee.org<span
                                         className='text-primary opacity-50'>↗</span></span></a></li>
                                     <li className='print:text-center md:text-center'><span
                                         className='font-semibold text-primary'><FontAwesomeIcon
                                         icon={faSquareGithub} size='lg'
-                                        style={{color: "#44475a"}}/><span> </span></span><a href="/"
-                                                                                            target="_noref"><span
-                                        className='hover:text-primary text-secondary font-light'>pujan-modha<span
+                                        style={{color: "#44475a"}}/><span className='-tracking-widest'> </span></span><a
+                                        href="/"
+                                        target="_noref"><span
+                                        className='hover:text-primary text-secondary font-light hover:underline'>pujan-modha<span
                                         className='text-primary opacity-50'>↗</span></span></a></li>
                                     <li className='print:text-center md:text-center'><span
                                         className='font-semibold text-primary'><FontAwesomeIcon icon={faLinkedin}
                                                                                                 size='lg'
-                                                                                                style={{color: "#44475a"}}/><span> </span></span><a
+                                                                                                style={{color: "#44475a"}}/><span
+                                        className='-tracking-widest'> </span></span><a
                                         href="/" target="_noref"><span
-                                        className='hover:text-primary text-secondary font-light'>pujan-modha<span
+                                        className='hover:text-primary text-secondary font-light hover:underline'>pujan-modha<span
                                         className='text-primary opacity-50'>↗</span></span></a></li>
                                     <li className='print:text-center md:text-center'><span
                                         className='font-semibold text-primary'><FontAwesomeIcon icon={faSquarePhone}
                                                                                                 size='lg'
-                                                                                                style={{color: "#44475a"}}/><span> </span></span><a
+                                                                                                style={{color: "#44475a"}}/><span
+                                        className='-tracking-widest'> </span></span><a
                                         href="tel:+91 9484856107" target="_noref"><span
-                                        className='hover:text-primary text-secondary font-light'>+91-9484856107<span
+                                        className='hover:text-primary text-secondary font-light hover:underline'>+91-9484856107<span
                                         className='text-primary opacity-50'>↗</span></span></a></li>
                                 </ul>
                             </div>
@@ -71,15 +75,17 @@ function Resume() {
                                                 <div className='print:hidden print:scale-0 print:h-0'>
                                                     <p className='text-primary font-medium'>Bachelor of
                                                         Technology</p>
-                                                    <p className='text-secondary text-sm font-medium'>2022<span> - </span>Present</p>
+                                                    <p className='text-secondary text-sm font-medium'>2022<span> - </span>Present
+                                                    </p>
                                                 </div>
                                             </MediaQuery>
                                             <div className='scale-0 h-0 print:scale-100'>
                                                 <p className='text-primary font-medium'>Bachelor of Technology</p>
-                                                <p className='text-secondary text-sm font-medium'>2022<span> - </span>Present</p>
+                                                <p className='text-secondary text-sm font-medium'>2022<span> - </span>Present
+                                                </p>
                                             </div>
                                             <p className='text-secondary text-sm font-medium print:hidden md:hidden'>2022
-                                               <span> - </span>Present<span> | </span>Bachelor of Technology</p>
+                                                <span> - </span>Present<span> | </span>Bachelor of Technology</p>
                                         </div>
                                     </div>
                                     <div className='text-sm'>
@@ -88,7 +94,8 @@ function Resume() {
                                                 className='text-primary font-light'>Computer Science</span></li>
                                             <li><span className='font-semibold text-primary'>Minor:<span> </span></span><span
                                                 className='text-primary font-light'>TBD</span></li>
-                                            <li><span className='font-semibold text-primary'>GPA:<span> </span></span><span
+                                            <li><span
+                                                className='font-semibold text-primary'>GPA:<span> </span></span><span
                                                 className='text-primary font-light'>7.5</span></li>
                                         </ul>
                                     </div>
@@ -229,11 +236,12 @@ function Resume() {
                                 <div className='grid print:grid-cols-2 md:grid-cols-2'>
                                     <div>
                                         <p className='font-semibold text-primary'><a href="/" target="_noref"
-                                                                                     className='hover:text-secondary'>PROJECT
+                                                                                     className='hover:text-secondary hover:underline'>PROJECT
                                             - 1<span className='text-primary font-light opacity-50'>↗</span></a><span
                                             className='text-primary'> | </span><a href='/'
-                                                                                  target='_noref'><FontAwesomeIcon
-                                            icon={faGithub} style={{color: "#6272a4", opacity: "75%"}}/><span
+                                                                                  target='_noref'
+                                                                                  className='opacity-75 hover:opacity-100'><FontAwesomeIcon
+                                            icon={faGithub} style={{color: "#6272a4"}}/><span
                                             className='text-primary opacity-50 font-thin text-sm'>↗</span></a></p>
                                     </div>
                                     <div>
@@ -265,11 +273,12 @@ function Resume() {
                                 <div className='grid print:grid-cols-2 md:grid-cols-2'>
                                     <div>
                                         <p className='font-semibold text-primary'><a href="/" target="_noref"
-                                                                                     className='hover:text-secondary'>PROJECT
+                                                                                     className='hover:text-secondary hover:underline'>PROJECT
                                             - 2<span className='text-primary font-light opacity-50'>↗</span></a><span
                                             className='text-primary'> | </span><a href='/'
-                                                                                  target='_noref'><FontAwesomeIcon
-                                            icon={faGithub} style={{color: "#6272a4", opacity: "75%"}}/><span
+                                                                                  target='_noref'
+                                                                                  className='opacity-75 hover:opacity-100'><FontAwesomeIcon
+                                            icon={faGithub} style={{color: "#6272a4"}}/><span
                                             className='text-primary opacity-50 font-thin text-sm'>↗</span></a></p>
                                     </div>
                                     <div>
@@ -307,25 +316,25 @@ function Resume() {
                                         <ul>
                                             <li><span className='font-black text-secondary'> › </span><a href="/"
                                                                                                          target="_noref"><span
-                                                className='hover:text-secondary text-primary font-light'>Problem solving using HTML - Coursera</span><span
-                                                className='text-primary font-light opacity-50'>↗</span></a><span> | </span><a
-                                                href="/" target="_noref"><span
-                                                className='hover:text-primary text-secondary font-light'>(Certificate<span
-                                                className='text-primary opacity-50'>↗</span>)</span></a></li>
+                                                className='hover:text-secondary text-primary font-light hover:underline'>Problem solving using HTML<span> - </span>Coursera<span
+                                                className='text-primary font-light opacity-50'>↗</span></span></a><span> | </span><a
+                                                href="/" target="_noref">(<span
+                                                className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
+                                                className='text-primary opacity-50'>↗</span></span>)</a></li>
                                             <li><span className='font-black text-secondary'> › </span><a href="/"
                                                                                                          target="_noref"><span
-                                                className='hover:text-secondary text-primary font-light'>Using Artificial Intelligence in Cooking - Udemy</span><span
-                                                className='text-primary font-light opacity-50'>↗</span></a><span> | </span><a
-                                                href="/" target="_noref"><span
-                                                className='hover:text-primary text-secondary font-light'>(Certificate<span
-                                                className='text-primary opacity-50'>↗</span>)</span></a></li>
+                                                className='hover:text-secondary text-primary font-light hover:underline'>Using Artificial Intelligence in Cooking<span> - </span>Udemy<span
+                                                className='text-primary font-light opacity-50'>↗</span></span></a><span> | </span><a
+                                                href="/" target="_noref">(<span
+                                                className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
+                                                className='text-primary opacity-50'>↗</span></span>)</a></li>
                                             <li><span className='font-black text-secondary'> › </span><a href="/"
                                                                                                          target="_noref"><span
-                                                className='hover:text-secondary text-primary font-light'>Data Science for dummies - Udacity</span><span
-                                                className='text-primary font-light opacity-50'>↗</span></a><span> | </span><a
-                                                href="/" target="_noref"><span
-                                                className='hover:text-primary text-secondary font-light'>(Certificate<span
-                                                className='text-primary opacity-50'>↗</span>)</span></a></li>
+                                                className='hover:text-secondary text-primary font-light hover:underline'>Data Science for dummies<span> - </span>Udacity<span
+                                                className='text-primary font-light opacity-50'>↗</span></span></a><span> | </span><a
+                                                href="/" target="_noref">(<span
+                                                className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
+                                                className='text-primary opacity-50'>↗</span></span>)</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -339,20 +348,20 @@ function Resume() {
                                 <div className='text-sm'>
                                     <ul>
                                         <li><span className='font-black text-secondary'> › </span><span
-                                            className='text-primary font-light'>2nd Position - ICHACK 2.0</span><span> | </span><a
-                                            href="/" target="_noref"><span
-                                            className='hover:text-primary text-secondary font-light'>(Certificate<span
-                                            className='text-primary opacity-50'>↗</span>)</span></a></li>
+                                            className='text-primary font-light'>2nd Position<span> - </span>ICHACK 2.0</span><span> | </span><a
+                                            href="/" target="_noref">(<span
+                                            className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
+                                            className='text-primary opacity-50'>↗</span></span>)</a></li>
                                         <li><span className='font-black text-secondary'> › </span><span
-                                            className='text-primary font-light'>Winner - UXPLORER by IEEE SB MUJ</span><span> | </span><a
-                                            href="/" target="_noref"><span
-                                            className='hover:text-primary text-secondary font-light'>(Certificate<span
-                                            className='text-primary opacity-50'>↗</span>)</span></a></li>
+                                            className='text-primary font-light'>Winner<span> - </span>UXPLORER by IEEE SB MUJ</span><span> | </span><a
+                                            href="/" target="_noref">(<span
+                                            className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
+                                            className='text-primary opacity-50'>↗</span></span>)</a></li>
                                         <li><span className='font-black text-secondary'> › </span><span
-                                            className='text-primary font-light'>Top 15 - MUJ HACK-X 2023</span><span> | </span><a
-                                            href="/" target="_noref"><span
-                                            className='hover:text-primary text-secondary font-light'>(Certificate<span
-                                            className='text-primary opacity-50'>↗</span>)</span></a></li>
+                                            className='text-primary font-light'>Top 15<span> - </span>MUJ HACK-X 2023</span><span> | </span><a
+                                            href="/" target="_noref">(<span
+                                            className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
+                                            className='text-primary opacity-50'>↗</span></span>)</a></li>
                                     </ul>
                                 </div>
 
