@@ -7,9 +7,6 @@
 }
 
 @media print {
-    #non-printable {
-        display: none !important;
-    }
     @page {
         size: A4;
         margin-left: 0;
