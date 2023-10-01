@@ -11,7 +11,7 @@ function Resume() {
       <div className='mx-[2.5%] md:mx-auto print:w-letter'>
           <div className='text-foreground bg-background font-mono box-border max-w-3xl mx-auto print:my-0 my-[2.5%] print:border-0 border-4 border-foreground w-full'>
               <div className='text-center mx-auto align-middle print:mt-0 mt-[5%]'>
-                  <h1 className='text-5xl font-bold md:tracking-wide md:my-0 my-[2.5%]'><span className='print:text-foreground bg-foreground text-background'>P</span>ujan <span className='print:text-foreground bg-foreground text-background'>M</span>odha</h1>
+                  <h1 className='text-5xl font-bold md:tracking-wide md:my-0 my-[2.5%]'><span className='print:text-foreground bg-foreground text-background tracking-wide'>P</span>ujan <span className='print:text-foreground bg-foreground text-background tracking-wide'>M</span>odha</h1>
                   <p className='mt-[1%] print:my-[1%] text-primary font-semibold text-xl'>Full-Stack Developer</p>
                   <p className='font-medium text-primary'>Porbandar, Gujarat, India</p>
                   <hr className='mx-auto border-2 border-opacity-50 border-primary my-[2.5%] w-[95%]'/>
