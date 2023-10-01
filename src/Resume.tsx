@@ -39,8 +39,10 @@ function Resume() {
                                       <p className='font-semibold text-base text-primary'>MANIPAL UNIVERSITY, JAIPUR</p>
                                       <div>
                                           <MediaQuery minWidth={768}>
-                                              <p className='text-primary font-medium'>Bachelor of Technology</p>
-                                              <p className='text-secondary text-sm font-medium'>2022 - Present</p>
+                                              <div className='print:hidden print:scale-0 print:h-0'>
+                                                  <p className='text-primary font-medium'>Bachelor of Technology</p>
+                                                  <p className='text-secondary text-sm font-medium'>2022 - Present</p>
+                                              </div>
                                           </MediaQuery>
                                           <div className='scale-0 h-0 print:scale-100'>
                                               <p className='text-primary font-medium'>Bachelor of Technology</p>
