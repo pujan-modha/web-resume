@@ -14,7 +14,7 @@ function Resume() {
                     <section>
                         <div className='text-center mx-auto align-middle print:mt-0 mt-[5%]'>
                             <h1 className='text-5xl font-bold md:tracking-wide md:my-0 my-[2.5%]'><span
-                                className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide'>P</span>ujan<span> </span><span
+                                className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide'>P</span>ujan<span className='-tracking-widest'> </span><span
                                 className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide'>M</span>odha
                             </h1>
                             <p className='mt-[1%] print:my-[1%] text-primary font-semibold text-xl'>Full-Stack
@@ -71,25 +71,24 @@ function Resume() {
                                                 <div className='print:hidden print:scale-0 print:h-0'>
                                                     <p className='text-primary font-medium'>Bachelor of
                                                         Technology</p>
-                                                    <p className='text-secondary text-sm font-medium'>2022 -
-                                                        Present</p>
+                                                    <p className='text-secondary text-sm font-medium'>2022<span> - </span>Present</p>
                                                 </div>
                                             </MediaQuery>
                                             <div className='scale-0 h-0 print:scale-100'>
                                                 <p className='text-primary font-medium'>Bachelor of Technology</p>
-                                                <p className='text-secondary text-sm font-medium'>2022 - Present</p>
+                                                <p className='text-secondary text-sm font-medium'>2022<span> - </span>Present</p>
                                             </div>
                                             <p className='text-secondary text-sm font-medium print:hidden md:hidden'>2022
-                                                - Present | Bachelor of Technology</p>
+                                               <span> - </span>Present<span> | </span>Bachelor of Technology</p>
                                         </div>
                                     </div>
                                     <div className='text-sm'>
                                         <ul>
-                                            <li><span className='font-semibold text-primary'>Major: </span><span
+                                            <li><span className='font-semibold text-primary'>Major:<span> </span></span><span
                                                 className='text-primary font-light'>Computer Science</span></li>
-                                            <li><span className='font-semibold text-primary'>Minor: </span><span
+                                            <li><span className='font-semibold text-primary'>Minor:<span> </span></span><span
                                                 className='text-primary font-light'>TBD</span></li>
-                                            <li><span className='font-semibold text-primary'>GPA: </span><span
+                                            <li><span className='font-semibold text-primary'>GPA:<span> </span></span><span
                                                 className='text-primary font-light'>7.5</span></li>
                                         </ul>
                                     </div>
