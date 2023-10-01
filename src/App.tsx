@@ -1,11 +1,10 @@
-import './Resume.css'
+import './App.css'
 import MediaQuery from 'react-responsive'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSquareGithub, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {faSquareEnvelope, faSquarePhone} from "@fortawesome/free-solid-svg-icons";
 
-function Resume() {
-
+function App() {
     return (
         <>
             <div className='mx-[2.5%] md:mx-auto print:w-letter'>
@@ -376,4 +375,4 @@ function Resume() {
     )
 }
 
-export default Resume;
+export default App;

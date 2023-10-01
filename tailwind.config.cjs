@@ -2,7 +2,6 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
     fontFamily: {
       'mono': 'JetBrains Mono',
     },
@@ -13,5 +12,4 @@ module.exports = {
       'secondary': '#6272a4',
     },
   },
-  plugins: [],
 }
