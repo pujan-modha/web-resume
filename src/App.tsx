@@ -315,21 +315,21 @@ function App() {
                                         <ul>
                                             <li><span className='font-black text-secondary'> › </span><a href="/"
                                                                                                          target="_noref"><span
-                                                className='hover:text-secondary text-primary font-light hover:underline'>Problem solving using HTML<span> - </span>Coursera<span
+                                                className='hover:text-secondary text-primary font-light hover:underline'><span className='font-semibold'>Problem solving using HTML</span><span> - </span>Coursera<span
                                                 className='text-primary font-light opacity-50'>↗</span></span></a><span> | </span><a
                                                 href="/" target="_noref">(<span
                                                 className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
                                                 className='text-primary opacity-50'>↗</span></span>)</a></li>
                                             <li><span className='font-black text-secondary'> › </span><a href="/"
                                                                                                          target="_noref"><span
-                                                className='hover:text-secondary text-primary font-light hover:underline'>Using Artificial Intelligence in Cooking<span> - </span>Udemy<span
+                                                className='hover:text-secondary text-primary font-light hover:underline'><span className='font-semibold'>Using Artificial Intelligence in Cooking</span><span> - </span>Udemy<span
                                                 className='text-primary font-light opacity-50'>↗</span></span></a><span> | </span><a
                                                 href="/" target="_noref">(<span
                                                 className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
                                                 className='text-primary opacity-50'>↗</span></span>)</a></li>
                                             <li><span className='font-black text-secondary'> › </span><a href="/"
                                                                                                          target="_noref"><span
-                                                className='hover:text-secondary text-primary font-light hover:underline'>Data Science for dummies<span> - </span>Udacity<span
+                                                className='hover:text-secondary text-primary font-light hover:underline'><span className='font-semibold'>Data Science for dummies</span><span> - </span>Udacity<span
                                                 className='text-primary font-light opacity-50'>↗</span></span></a><span> | </span><a
                                                 href="/" target="_noref">(<span
                                                 className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
@@ -342,28 +342,26 @@ function App() {
                         </section>
                         <section>
                             <div>
-
                                 <h2 className='text-lg text-foreground font-bold'>ACHIEVEMENTS</h2>
                                 <div className='text-sm'>
                                     <ul>
                                         <li><span className='font-black text-secondary'> › </span><span
-                                            className='text-primary font-light'>2nd Position<span> - </span>ICHACK 2.0</span><span> | </span><a
+                                            className='text-primary font-light'><span className='font-semibold'>2nd Position</span><span> - </span>ICHACK 2.0</span><span> | </span><a
                                             href="/" target="_noref">(<span
                                             className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
                                             className='text-primary opacity-50'>↗</span></span>)</a></li>
                                         <li><span className='font-black text-secondary'> › </span><span
-                                            className='text-primary font-light'>Winner<span> - </span>UXPLORER by IEEE SB MUJ</span><span> | </span><a
+                                            className='text-primary font-light'><span className='font-semibold'>Winner</span><span> - </span>UXPLORER by IEEE SB MUJ</span><span> | </span><a
                                             href="/" target="_noref">(<span
                                             className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
                                             className='text-primary opacity-50'>↗</span></span>)</a></li>
                                         <li><span className='font-black text-secondary'> › </span><span
-                                            className='text-primary font-light'>Top 15<span> - </span>MUJ HACK-X 2023</span><span> | </span><a
+                                            className='text-primary font-light'><span className='font-semibold'>Top 15</span><span> - </span>MUJ HACK-X 2023</span><span> | </span><a
                                             href="/" target="_noref">(<span
                                             className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
                                             className='text-primary opacity-50'>↗</span></span>)</a></li>
                                     </ul>
                                 </div>
-
                             </div>
                             <hr className='hidden mx-auto border border-opacity-25 border-foreground my-[2.5%] w-full'/>
                         </section>
