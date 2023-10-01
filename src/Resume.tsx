@@ -1,8 +1,8 @@
 import './Resume.css'
 import MediaQuery from 'react-responsive'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
-import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
+import {faSquareGithub, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faSquareEnvelope, faSquarePhone} from "@fortawesome/free-solid-svg-icons";
 
 function Resume() {
 
@@ -21,10 +21,10 @@ function Resume() {
                       <div>
                           <div>
                               <ul className='grid grid-cols-2 print:grid-cols-4 md:grid-cols-4 justify-around'>
-                                  <li className='print:text-center md:text-center'><span className='font-semibold text-primary'><FontAwesomeIcon icon={faEnvelope} style={{color: "#44475a"}}/><span> </span></span><a href="mailto:pujan@ieee.org" target="_noref"><span className='hover:text-primary text-secondary font-light'>pujan@ieee.org<span className='text-primary opacity-50'>↗</span></span></a></li>
-                                  <li className='print:text-center md:text-center'><span className='font-semibold text-primary'><FontAwesomeIcon icon={faGithub} style={{color: "#44475a"}}/><span> </span></span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>pujan-modha<span className='text-primary opacity-50'>↗</span></span></a></li>
-                                  <li className='print:text-center md:text-center'><span className='font-semibold text-primary'><FontAwesomeIcon icon={faLinkedin} style={{color: "#44475a"}}/><span> </span></span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>pujan-modha<span className='text-primary opacity-50'>↗</span></span></a></li>
-                                  <li className='print:text-center md:text-center'><span className='font-semibold text-primary'><FontAwesomeIcon icon={faPhone} style={{color: "#44475a"}}/><span> </span></span><a href="tel:+91 9484856107" target="_noref"><span className='hover:text-primary text-secondary font-light'>+91 9484856107<span className='text-primary opacity-50'>↗</span></span></a></li>
+                                  <li className='print:text-center md:text-center'><span className='font-semibold text-primary'><FontAwesomeIcon icon={faSquareEnvelope} size='lg' style={{color: "#44475a"}}/><span> </span></span><a href="mailto:pujan@ieee.org" target="_noref"><span className='hover:text-primary text-secondary font-light'>pujan@ieee.org<span className='text-primary opacity-50'>↗</span></span></a></li>
+                                  <li className='print:text-center md:text-center'><span className='font-semibold text-primary'><FontAwesomeIcon icon={faSquareGithub} size='lg' style={{color: "#44475a"}}/><span> </span></span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>pujan-modha<span className='text-primary opacity-50'>↗</span></span></a></li>
+                                  <li className='print:text-center md:text-center'><span className='font-semibold text-primary'><FontAwesomeIcon icon={faLinkedin} size='lg' style={{color: "#44475a"}}/><span> </span></span><a href="/" target="_noref"><span className='hover:text-primary text-secondary font-light'>pujan-modha<span className='text-primary opacity-50'>↗</span></span></a></li>
+                                  <li className='print:text-center md:text-center'><span className='font-semibold text-primary'><FontAwesomeIcon icon={faSquarePhone} size='lg' style={{color: "#44475a"}}/><span> </span></span><a href="tel:+91 9484856107" target="_noref"><span className='hover:text-primary text-secondary font-light'>+91 9484856107<span className='text-primary opacity-50'>↗</span></span></a></li>
                               </ul>
                           </div>
                       </div>
