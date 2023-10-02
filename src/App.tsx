@@ -83,8 +83,8 @@ function App() {
                                                 <p className='text-secondary text-sm font-medium'>2022<span> - </span>Present
                                                 </p>
                                             </div>
-                                            <p className='text-secondary text-sm font-medium print:hidden md:hidden'>2022
-                                                <span> - </span>Present<span> | </span>Bachelor of Technology</p>
+                                            <p className='text-secondary text-sm font-medium print:hidden md:hidden'>Bachelor of Technology</p>
+                                            <p className='text-secondary text-xs font-medium print:hidden md:hidden'>(2022<span> - </span>Present)</p>
                                         </div>
                                     </div>
                                     <div className='text-sm'>
