@@ -161,7 +161,7 @@ function App() {
                                                 Jaipur)</p>
                                         </div>
                                         <MediaQuery minWidth={768}>
-                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University,
+                                            <p className='gap-[1%] text-xs print:hidden text-secondary italic'>(Manipal University,
                                                 Jaipur)</p>
                                         </MediaQuery>
                                     </div>
@@ -203,7 +203,7 @@ function App() {
                                                 Jaipur)</p>
                                         </div>
                                         <MediaQuery minWidth={768}>
-                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University,
+                                            <p className='gap-[1%] text-xs print:hidden text-secondary italic'>(Manipal University,
                                                 Jaipur)</p>
                                         </MediaQuery>
                                     </div>
@@ -245,7 +245,7 @@ function App() {
                                                 Jaipur)</p>
                                         </div>
                                         <MediaQuery minWidth={768}>
-                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University,
+                                            <p className='gap-[1%] text-xs print:hidden text-secondary italic'>(Manipal University,
                                                 Jaipur)</p>
                                         </MediaQuery>
                                     </div>
