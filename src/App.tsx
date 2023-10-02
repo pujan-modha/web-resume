@@ -11,17 +11,18 @@ function App() {
                 <div
                     className='text-foreground bg-background font-mono box-border max-w-3xl mx-auto print:my-0 my-[2.5%] print:border-0 border-4 border-foreground w-full'>
                     <section>
-                        <div className='px-[2.5%] text-left md:text-center mx-auto align-middle print:mt-0 mt-[5%]'>
-                                <div>
-                                    <h1 className='text-5xl font-bold md:tracking-wide my-[2.5%]'><span
-                                        className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide font-black'>P</span>ujan<span
-                                        className='-tracking-widest'> </span><span
-                                        className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide font-black'>M</span>odha
-                                    </h1>
-                                    <p className='mt-[1%] print:my-[1%] text-primary font-semibold text-xl'>Full-Stack
-                                        Developer</p>
-                                    <p className='font-medium text-primary'>Porbandar, Gujarat, India</p>
-                                </div>
+                        <div
+                            className='px-[2.5%] text-left print:text-center md:text-center mx-auto align-middle print:mt-0 mt-[5%]'>
+                            <div>
+                                <h1 className='text-5xl font-bold md:tracking-wide my-[2.5%]'><span
+                                    className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide font-black'>P</span>ujan<span
+                                    className='-tracking-widest'> </span><span
+                                    className='print:text-foreground print:tracking-normal bg-foreground text-background tracking-wide font-black'>M</span>odha
+                                </h1>
+                                <p className='mt-[1%] print:my-[1%] text-primary font-semibold text-xl'>Full-Stack
+                                    Developer</p>
+                                <p className='font-medium text-primary'>Porbandar, Gujarat, India</p>
+                            </div>
                             <hr className='mx-auto border-2 border-opacity-50 border-primary my-[2.5%]'/>
                         </div>
                     </section>
@@ -38,9 +39,10 @@ function App() {
                                         className='hover:text-primary text-secondary font-light hover:underline'>github.com/pujan-modha<span
                                         className='text-primary opacity-50'>↗</span></span></a></li>
                                     <li><span
-                                        className='font-semibold text-primary'><FontAwesomeIcon icon={faLinkedin}
-                                                                                                size='lg'
-                                                                                                style={{color: "#44475a"}}/><span
+                                        className='font-semibold text-primary'><FontAwesomeIcon
+                                        icon={faLinkedin}
+                                        size='lg'
+                                        style={{color: "#44475a"}}/><span
                                         className='-tracking-widest'> </span></span><a
                                         href="/" target="_noref"><span
                                         className='hover:text-primary text-secondary font-light hover:underline'>linkedin.com/in/pujan-modha<span
@@ -53,9 +55,10 @@ function App() {
                                         className='hover:text-primary text-secondary font-light hover:underline'>pujan@ieee.org<span
                                         className='text-primary opacity-50'>↗</span></span></a></li>
                                     <li><span
-                                        className='font-semibold text-primary'><FontAwesomeIcon icon={faSquarePhone}
-                                                                                                size='lg'
-                                                                                                style={{color: "#44475a"}}/><span
+                                        className='font-semibold text-primary'><FontAwesomeIcon
+                                        icon={faSquarePhone}
+                                        size='lg'
+                                        style={{color: "#44475a"}}/><span
                                         className='-tracking-widest'> </span></span><a
                                         href="tel:+91 9484856107" target="_noref"><span
                                         className='hover:text-primary text-secondary font-light hover:underline'>+91 9484856107<span
@@ -72,19 +75,21 @@ function App() {
                                         <p className='font-semibold text-base text-primary'>MANIPAL UNIVERSITY,
                                             JAIPUR</p>
                                         <div>
-                                                <div className=''>
-                                                    <p className='text-secondary font-medium'>Bachelor of
-                                                        Technology</p>
-                                                    <p className='text-secondary text-sm font-medium italic'>(2022<span> - </span>Present)
-                                                    </p>
-                                                </div>
+                                            <div className=''>
+                                                <p className='text-secondary font-medium'>Bachelor of
+                                                    Technology</p>
+                                                <p className='text-secondary text-sm font-medium italic'>(2022<span> - </span>Present)
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className='text-sm'>
                                         <ul>
-                                            <li><span className='font-semibold text-primary'>Major:<span> </span></span><span
+                                            <li><span
+                                                className='font-semibold text-primary'>Major:<span> </span></span><span
                                                 className='text-primary font-light'>Computer Science</span></li>
-                                            <li><span className='font-semibold text-primary'>Minor:<span> </span></span><span
+                                            <li><span
+                                                className='font-semibold text-primary'>Minor:<span> </span></span><span
                                                 className='text-primary font-light'>TBD</span></li>
                                             <li><span
                                                 className='font-semibold text-primary'>GPA:<span> </span></span><span
@@ -122,9 +127,7 @@ function App() {
                                             <li className='print:text-foreground print:border text-sm bg-secondary text-background px-[2.5%] mb-[1%]'>Laravel</li>
                                             <li className='print:text-foreground print:border text-sm bg-secondary text-background px-[2.5%] mb-[1%]'>Next.js</li>
                                             <li className='print:text-foreground print:border text-sm bg-secondary text-background px-[2.5%] mb-[1%]'>Vite.js</li>
-                                            <li className='print:text-foreground print:border text-sm bg-secondary text-background px-[2.5%] mb-[1%]'>Tailwind
-                                                CSS
-                                            </li>
+                                            <li className='print:text-foreground print:border text-sm bg-secondary text-background px-[2.5%] mb-[1%]'>Tailwind CSS</li>
                                             <li className='print:text-foreground print:border text-sm bg-secondary text-background px-[2.5%] mb-[1%]'>Bootstrap</li>
                                         </ul>
                                     </div>
@@ -153,13 +156,18 @@ function App() {
                                     <div>
                                         <p className='font-semibold text-primary'>IEEE STUDENT BRANCH<span> | </span>WEBMASTER
                                         </p>
+                                        <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
+                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University,
+                                                Jaipur)</p>
+                                        </div>
                                         <MediaQuery minWidth={768}>
-                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University, Jaipur)</p>
+                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University,
+                                                Jaipur)</p>
                                         </MediaQuery>
                                     </div>
                                     <div>
                                         <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
-                                            <p className='text-secondary text-xs font-medium print:hidden md:text-right italic'>(May
+                                            <p className='text-secondary text-xs font-medium print:text-right md:text-right italic'>(May
                                                 2023<span> - </span>Present)</p>
                                         </div>
                                         <MediaQuery minWidth={768}>
@@ -190,13 +198,18 @@ function App() {
                                     <div>
                                         <p className='font-semibold text-primary'>IEEE STUDENT BRANCH<span> | </span>WEBMASTER
                                         </p>
+                                        <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
+                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University,
+                                                Jaipur)</p>
+                                        </div>
                                         <MediaQuery minWidth={768}>
-                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University, Jaipur)</p>
+                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University,
+                                                Jaipur)</p>
                                         </MediaQuery>
                                     </div>
                                     <div>
                                         <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
-                                            <p className='text-secondary text-xs font-medium print:hidden md:text-right italic'>(May
+                                            <p className='text-secondary text-xs font-medium print:text-right md:text-right italic'>(May
                                                 2023<span> - </span>Present)</p>
                                         </div>
                                         <MediaQuery minWidth={768}>
@@ -227,13 +240,18 @@ function App() {
                                     <div>
                                         <p className='font-semibold text-primary'>IEEE STUDENT BRANCH<span> | </span>WEBMASTER
                                         </p>
+                                        <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
+                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University,
+                                                Jaipur)</p>
+                                        </div>
                                         <MediaQuery minWidth={768}>
-                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University, Jaipur)</p>
+                                            <p className='gap-[1%] text-xs text-secondary italic'>(Manipal University,
+                                                Jaipur)</p>
                                         </MediaQuery>
                                     </div>
                                     <div>
                                         <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
-                                            <p className='text-secondary text-xs font-medium print:hidden md:text-right italic'>(May
+                                            <p className='text-secondary text-xs font-medium print:text-right md:text-right italic'>(May
                                                 2023<span> - </span>Present)</p>
                                         </div>
                                         <MediaQuery minWidth={768}>
@@ -266,12 +284,9 @@ function App() {
                             <div className='mb-[2.5%]'>
                                 <div className='grid print:grid-cols-2 md:grid-cols-2'>
                                     <div>
-                                        <p className='font-semibold text-primary'><a href="/" target="_noref"
-                                                                                     className='hover:text-secondary hover:underline'>PROJECT
+                                        <p className='font-semibold text-primary'><a href="/" target="_noref" className='hover:text-secondary hover:underline'>PROJECT
                                             - 1<span className='text-primary font-light opacity-50'>↗</span></a><span
-                                            className='text-primary'> | </span><a href='/'
-                                                                                  target='_noref'
-                                                                                  className='opacity-75 hover:opacity-100'><FontAwesomeIcon
+                                            className='text-primary'> | </span><a href='/' target='_noref' className='opacity-75 hover:opacity-100'><FontAwesomeIcon
                                             icon={faGithub} style={{color: "#6272a4"}}/><span
                                             className='text-primary opacity-50 font-thin text-sm'>↗</span></a></p>
                                     </div>
@@ -386,12 +401,14 @@ function App() {
                                             className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
                                             className='text-primary opacity-50'>↗</span></span>)</a></li>
                                         <li><span className='font-black text-secondary'> › </span><span
-                                            className='text-primary font-light'><span className='font-semibold'>Winner</span><span> - </span>UXPLORER by IEEE SB MUJ</span><span> | </span><a
+                                            className='text-primary font-light'><span
+                                            className='font-semibold'>Winner</span><span> - </span>UXPLORER by IEEE SB MUJ</span><span> | </span><a
                                             href="/" target="_noref">(<span
                                             className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
                                             className='text-primary opacity-50'>↗</span></span>)</a></li>
                                         <li><span className='font-black text-secondary'> › </span><span
-                                            className='text-primary font-light'><span className='font-semibold'>Top 15</span><span> - </span>MUJ HACK-X 2023</span><span> | </span><a
+                                            className='text-primary font-light'><span
+                                            className='font-semibold'>Top 15</span><span> - </span>MUJ HACK-X 2023</span><span> | </span><a
                                             href="/" target="_noref">(<span
                                             className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
                                             className='text-primary opacity-50'>↗</span></span>)</a></li>
