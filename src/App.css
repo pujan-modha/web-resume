@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 *{
-    background-color: #f8f8f2;
+    /*background-color: #f8f8f2;*/
     font-family: 'JetBrains Mono', monospace;
     print-color-adjust: economy;
 }
