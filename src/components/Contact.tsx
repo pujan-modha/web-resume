@@ -43,7 +43,6 @@ const Contact = () => {
                             className='text-primary opacity-50'>↗</span></span></a></li>
                     </ul>
                 </div>
-                <hr className='mx-auto border border-opacity-25 border-foreground my-[2.5%] w-full'/>
             </section>
         </>
     )

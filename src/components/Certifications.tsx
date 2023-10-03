@@ -35,7 +35,6 @@ const Certifications = () => {
                         </div>
                     </div>
                 </div>
-                <hr className='mx-auto border border-opacity-25 border-foreground my-[2.5%] w-full'/>
             </section>
         </>
     )

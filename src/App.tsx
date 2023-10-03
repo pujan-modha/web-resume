@@ -7,6 +7,7 @@ import Experience from "./components/Experience.tsx";
 import Projects from "./components/Projects.tsx";
 import Certifications from "./components/Certifications.tsx";
 import Achievements from "./components/Achievements.tsx";
+import HorizontalRule from "./components/HorizontalRule.tsx";
 
 function App() {
     return (
@@ -16,11 +17,17 @@ function App() {
                     <Header/>
                     <div className='px-[2.5%]'>
                         <Contact/>
+                        <HorizontalRule/>
                         <Education/>
+                        <HorizontalRule/>
                         <Skills/>
+                        <HorizontalRule/>
                         <Experience/>
+                        <HorizontalRule/>
                         <Projects/>
+                        <HorizontalRule/>
                         <Certifications/>
+                        <HorizontalRule/>
                         <Achievements/>
                     </div>
                     <hr className='mx-auto border-2 border-opacity-50 border-primary my-[2.5%] w-[95%]'/>
