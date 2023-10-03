@@ -8,19 +8,18 @@ const Achievements = () => {
                     <h2 className='text-lg text-foreground font-bold print:mt-[2.5%]'>ACHIEVEMENTS</h2>
                     <div className='text-sm'>
                         <ul>
-                            {AchievementsData.map((achievements,id) => (
-                                <div key={id}>
-                                    <li><span className='font-black text-secondary'> › </span><span
-                                        className='text-primary font-light'><span
-                                        className='font-semibold'>{achievements.achievementMain}</span>
+                            {AchievementsData.map((achievements, id) => (
+                                <li key={id}><span className='font-black text-secondary'> › </span><span
+                                    className='text-primary font-light'><span
+                                    className='font-semibold'>{achievements.achievementMain}</span>
                                         <span> - </span>{achievements.achievementEvent}</span>
-                                        {!achievements.achievementHaveCertificate ? ("") : (<span>
-                                        <span> | </span><a href={achievements.achievementLinkToCertificate} target="_noref">(<span
-                                            className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
-                                            className='text-primary opacity-50'>↗</span></span>)</a>
+                                    {!achievements.achievementHaveCertificate ? ("") : (<span>
+                                        <span> | </span><a href={achievements.achievementLinkToCertificate}
+                                                           target="_noref">(<span
+                                        className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
+                                        className='text-primary opacity-50'>↗</span></span>)</a>
                                 </span>)}
-                                    </li>
-                                </div>
+                                </li>
                             ))}
                         </ul>
                     </div>
