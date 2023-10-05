@@ -1,5 +1,5 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faLinkedin, faSquareGithub} from "@fortawesome/free-brands-svg-icons";
+import {faLinkedin, faSquareGithub, faSquareGitlab, faSquareXTwitter} from "@fortawesome/free-brands-svg-icons";
 import {faSquareEnvelope, faSquarePhone} from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
@@ -40,6 +40,24 @@ const Contact = () => {
                             className='-tracking-widest'> </span></span><a
                             href="tel:+91 9484856107" target="_noref"><span
                             className='hover:text-primary text-secondary font-light hover:underline'>+91 9484856107<span
+                            className='text-primary opacity-50'>↗</span></span></a></li>
+                        <li><span
+                            className='font-semibold text-primary'><FontAwesomeIcon
+                            icon={faSquareXTwitter}
+                            size='lg'
+                            style={{color: "#44475a"}}/><span
+                            className='-tracking-widest'> </span></span><a
+                            href="/" target="_noref"><span
+                            className='hover:text-primary text-secondary font-light hover:underline'>x.com/pujan_modha<span
+                            className='text-primary opacity-50'>↗</span></span></a></li>
+                        <li><span
+                            className='font-semibold text-primary'><FontAwesomeIcon
+                            icon={faSquareGitlab}
+                            size='lg'
+                            style={{color: "#44475a"}}/><span
+                            className='-tracking-widest'> </span></span><a
+                            href="/" target="_noref"><span
+                            className='hover:text-primary text-secondary font-light hover:underline'>gitlab.com/pujan_modha<span
                             className='text-primary opacity-50'>↗</span></span></a></li>
                     </ul>
                 </div>
