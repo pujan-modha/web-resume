@@ -58,7 +58,7 @@ const Projects = () => {
                             </div>
                             {!project.ProjectHasTechStack ? ("") : (
                                 <div>
-                                    <ul className='flex flex-wrap gap-[1%]'>
+                                    <ul className='flex flex-wrap gap-[0.75%]'>
                                         {project.ProjectTechStack.map((projecttechstack, id) => (
                                             <li key={id} className='print:text-foreground print:border text-xs border border-secondary text-secondary px-[1%] my-[0.5%]'>{projecttechstack}</li>
                                         ))}
