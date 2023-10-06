@@ -4,10 +4,10 @@ const Education = () => {
     return(
         <>
             <section>
-                <div>
+                <div className='bg-background'>
                     <h2 className='text-lg text-foreground font-bold print:mt-[2.5%]'>EDUCATION</h2>
                     {EducationData.map((education, id) => (
-                    <div key={id}>
+                    <div key={id} className='mb-[2.5%]'>
                         <div className='grid print:grid-cols-2 md:grid-cols-2'>
                             <div>
                                 <p className='font-semibold text-base text-primary'>{education.EducationInstitutionName}</p>

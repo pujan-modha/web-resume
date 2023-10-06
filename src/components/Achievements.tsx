@@ -4,7 +4,7 @@ const Achievements = () => {
     return (
         <>
             <section>
-                <div>
+                <div className='bg-background'>
                     <h2 className='text-lg text-foreground font-bold print:mt-[2.5%]'>ACHIEVEMENTS</h2>
                     <div className='text-sm'>
                         <ul>

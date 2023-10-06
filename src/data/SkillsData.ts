@@ -1,0 +1,46 @@
+export const SkillsData = [
+    {
+        SkillsTitle: "LANGUAGES",
+        SkillsName: [
+            "C/C++",
+            "Java",
+            "Python",
+            "Kotlin",
+            "PHP",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Go",
+            "Rust",
+        ],
+    },
+    {
+        SkillsTitle: "FRAMEWORKS",
+        SkillsName: [
+            "React.js",
+            "Next.js",
+            "Node.js",
+            "Bun.js",
+            "Vite.js",
+            "Nuxt.js",
+            "Symphony",
+            "Laravel",
+            "Angular",
+            "Tailwind CSS",
+            "Bootstrap",
+            "Redux.js",
+        ],
+    },
+    {
+        SkillsTitle: "TOOLS",
+        SkillsName: [
+            "Git",
+            "Docker",
+            "Vercel",
+            "AWS",
+            "GitHub",
+            "Kubernetes",
+            "Linux",
+        ],
+    },
+]

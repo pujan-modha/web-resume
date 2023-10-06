@@ -1,22 +1,32 @@
-const AchievementsData = [
+export const AchievementsData = [
     {
         achievementMain : "Winner",
-        achievementEvent : "UXPLORER by IEEE SB MUJ",
+        achievementEvent : "IBM HACK 8.0",
         achievementHaveCertificate : true,
-        achievementLinkToCertificate : "https://www.pujan.pm/",
+        achievementLinkToCertificate : "/",
     },
     {
         achievementMain : "2nd Rank",
-        achievementEvent : "ICHACK 2.0 by IEEE India Council",
-        achievementHaveCertificate : false,
-        achievementLinkToCertificate : "https://www.pujan.pm/",
+        achievementEvent : "UX Champs by Cisco",
+        achievementHaveCertificate : true,
+        achievementLinkToCertificate : "/",
     },
     {
         achievementMain : "Runner Up",
-        achievementEvent : "HACK-X by MUJ",
+        achievementEvent : "CODE-IT-ON by The Compute Club",
+        achievementHaveCertificate : false,
+        achievementLinkToCertificate : "/",
+    },
+    {
+        achievementMain : "Top-15",
+        achievementEvent : "HACKERZ8 by Zesta",
         achievementHaveCertificate : true,
-        achievementLinkToCertificate : "https://www.pujan.pm/",
+        achievementLinkToCertificate : "/",
+    },
+    {
+        achievementMain : "Finalist",
+        achievementEvent : "CODE WARS by BigTech",
+        achievementHaveCertificate : true,
+        achievementLinkToCertificate : "/",
     },
 ]
-
-export {AchievementsData};

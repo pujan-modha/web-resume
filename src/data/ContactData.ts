@@ -1,33 +1,40 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLinkedin, faSquareGithub, faSquareGitlab, faSquareXTwitter} from "@fortawesome/free-brands-svg-icons";
 import {faSquareEnvelope, faSquarePhone} from "@fortawesome/free-solid-svg-icons";
+import { library } from '@fortawesome/fontawesome-svg-core';
+library.add(faLinkedin, faSquareGithub, faSquareGitlab, faSquareXTwitter, faSquareEnvelope, faSquarePhone);
 
-const ContactData = [
+
+
+export const ContactData = [
     {
-        ContactIcon: {faSquareGitlab},
+        ContactIcon: "fa-brands fa-square-github",
         ContactLink: "/",
-        ContactText: "github.com/pujan-modha"
+        ContactText: "github.com/john-doe"
     },
     {
-        ContactIcon: {faLinkedin},
+        ContactIcon: "fa-brands fa-square-gitlab",
         ContactLink: "/",
-        ContactText: "linkedin.com/in/pujan-modha-123456789"
+        ContactText: "gitlab.com/john-doe"
     },
     {
-        ContactIcon: {faSquareGitlab},
+        ContactIcon: "fa-brands fa-linkedin",
         ContactLink: "/",
-        ContactText: "github.com/pujan-modha"
+        ContactText: "linkedin.com/in/john-doe"
+        // ContactText: "john-doe-123456789"
     },
     {
-        ContactIcon: {faSquareGitlab},
+        ContactIcon: "fa-brands fa-square-x-twitter",
         ContactLink: "/",
-        ContactText: "github.com/pujan-modha"
+        ContactText: "x.com/john-doe"
     },
     {
-        ContactIcon: {faSquareGitlab},
+        ContactIcon: "fa-solid fa-square-envelope",
         ContactLink: "/",
-        ContactText: "github.com/pujan-modha"
+        ContactText: "johndoe@email.com"
+    },
+    {
+        ContactIcon: "fa-solid fa-square-phone",
+        ContactLink: "/",
+        ContactText: "+91 9876543210"
     },
 ]
-
-export {ContactData};
