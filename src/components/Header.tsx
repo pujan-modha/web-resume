@@ -10,15 +10,13 @@ const Header = () => {
     return (
         <>
             <section>
-                <div
-                    className='px-[2.5%] text-left print:text-center md:text-center mx-auto align-middle print:mt-0 mt-[5%] bg-background'>
+                <div className='px-[2.5%] text-left print:text-center md:text-center mx-auto align-middle print:mt-0 mt-[5%] bg-background'>
                     <div>
                         <h1 className='text-5xl font-bold md:tracking-wide my-[2.5%]'>
                             <span>
                                 {/* eslint-disable-next-line @typescript-eslint/no-unnecessary-condition */}
                                 {!HeaderFancyName ? ("") : (
-                                    <span
-                                        className='print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
+                                    <span className='print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
                                 {HeaderFirstLetterFN}
                             </span>
                                 )}

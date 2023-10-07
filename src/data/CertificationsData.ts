@@ -14,13 +14,6 @@ export const CertificationsData = [
         certificationLinkToCourse : "/",
         certificationHaveCertificate : true,
         certificationLinkToCertificate : "/",
-    },{
-        certificationCourseName : "Data Science for dummies",
-        certificationHaveCourseLink : true,
-        certificationCoursePlatformName : "Udacity",
-        certificationLinkToCourse : "/",
-        certificationHaveCertificate : true,
-        certificationLinkToCertificate : "/",
     },
     {
         certificationCourseName : "Big CSS Analysis using Typescript",

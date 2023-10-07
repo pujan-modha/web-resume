@@ -7,6 +7,8 @@ export const EducationData = [
         EducationMajor: "Big Data Analysis",
         EducationHasMinor: false,
         EducationMinor: "",
+        EducationHasSpecialization: true,
+        EducationSpecialization: "NoSQL DB Management",
         EducationGPA: "8.47",
     },
     {
@@ -16,6 +18,8 @@ export const EducationData = [
         EducationToTime: "2022",
         EducationMajor: "Computer Science",
         EducationHasMinor: true,
+        EducationHasSpecialization: false,
+        EducationSpecialization: "",
         EducationMinor: "Artificial Intelligence",
         EducationGPA: "8.73",
     },

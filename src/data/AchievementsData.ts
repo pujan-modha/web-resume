@@ -18,12 +18,6 @@ export const AchievementsData = [
         achievementLinkToCertificate : "/",
     },
     {
-        achievementMain : "Top-15",
-        achievementEvent : "HACKERZ8 by Zesta",
-        achievementHaveCertificate : true,
-        achievementLinkToCertificate : "/",
-    },
-    {
         achievementMain : "Finalist",
         achievementEvent : "CODE WARS by BigTech",
         achievementHaveCertificate : true,
