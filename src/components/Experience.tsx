@@ -11,7 +11,7 @@ const Experience = () => {
                         <div className='mb-[2.5%]' key={id}>
                             <div className='grid print:grid-cols-2 md:grid-cols-2'>
                                 <div>
-                                    <p className='font-semibold text-primary'>{experience.ExperienceOrganization}<span className='select-none'> | </span>{experience.ExperienceWorkTitle}</p>
+                                    <p className='font-semibold text-primary'>{experience.ExperienceOrganization}<span> | </span>{experience.ExperienceWorkTitle}</p>
                                     <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
                                         <p className='gap-[1%] text-xs text-secondary italic'>(<span>{experience.ExperienceLocation}</span>)</p>
                                     </div>

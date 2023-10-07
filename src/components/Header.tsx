@@ -28,7 +28,7 @@ const Header = () => {
                                 {HeaderNoFirstLetterFN}
                             </span>
                                 )}
-                                <span className='-tracking-widest'> </span>
+                                <span className='-tracking-widest no-underline'> </span>
                                 {/* eslint-disable-next-line @typescript-eslint/no-unnecessary-condition */}
                                 {!HeaderFancyName ? ("") : (
                                     <span className='selection:underline selection:underline-offset-auto print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>

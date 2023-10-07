@@ -12,9 +12,9 @@ const Achievements = () => {
                                 <li key={id}><span className='font-semibold text-secondary opacity-75 select-none'> › </span><span
                                     className='text-primary font-light'><span
                                     className='font-semibold'>{achievements.achievementMain}</span>
-                                        <span className='select-none'> - </span>{achievements.achievementEvent}</span>
+                                        <span> - </span>{achievements.achievementEvent}</span>
                                     {!achievements.achievementHaveCertificate ? ("") : (<span>
-                                        <span className='select-none'> | </span><a href={achievements.achievementLinkToCertificate}
+                                        <span> | </span><a href={achievements.achievementLinkToCertificate}
                                                            target="_noref">(<span
                                         className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
                                         className='text-primary opacity-50 print:hidden inline-flex align-middle'><svg

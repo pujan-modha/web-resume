@@ -14,7 +14,7 @@ const Certifications = () => {
                                     className='text-primary font-light'><span
                                     className='font-semibold'>{certifications.certificationCourseName}</span>
                                     {!certifications.certificationHaveCourseLink ? ("") : (<span>
-                                            <span className='select-none'> - </span><a
+                                            <span> - </span><a
                                         href={certifications.certificationLinkToCourse} target="_noref">(<span
                                         className='hover:text-primary text-secondary font-light hover:underline'>{certifications.certificationCoursePlatformName}
                                         <span className='text-primary opacity-50 print:hidden inline-flex align-middle'><svg
@@ -28,7 +28,7 @@ const Certifications = () => {
                                         </span>)}
                                     </span>
                                     {!certifications.certificationHaveCertificate ? ("") : (<span>
-                                            <span className='select-none'> | </span><a
+                                            <span> | </span><a
                                         href={certifications.certificationLinkToCertificate} target="_noref">(<span
                                         className='hover:text-primary text-secondary font-light hover:underline'>Certificate
                                         <span className='text-primary opacity-50 print:hidden inline-flex align-middle'><svg
