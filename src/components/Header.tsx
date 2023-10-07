@@ -16,30 +16,30 @@ const Header = () => {
                             <span>
                                 {/* eslint-disable-next-line @typescript-eslint/no-unnecessary-condition */}
                                 {!HeaderFancyName ? ("") : (
-                                    <span className='print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
+                                    <span className='selection:tracking-normal selection:underline selection:underline-offset-auto print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
                                 {HeaderFirstLetterFN}
                             </span>
                                 )}
                                 {/* eslint-disable-next-line @typescript-eslint/no-unnecessary-condition */}
-                                {!HeaderFancyName ? (<span className='selection:no-underline underline underline-offset-auto'>
+                                {!HeaderFancyName ? (<span className='underline underline-offset-auto'>
                                 {HeaderFirstName}
                             </span>) : (
-                                    <span className='selection:no-underline underline underline-offset-auto'>
+                                    <span className='underline underline-offset-auto'>
                                 {HeaderNoFirstLetterFN}
                             </span>
                                 )}
                                 <span className='-tracking-widest no-underline'> </span>
                                 {/* eslint-disable-next-line @typescript-eslint/no-unnecessary-condition */}
                                 {!HeaderFancyName ? ("") : (
-                                    <span className='print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
+                                    <span className='selection:tracking-normal selection:underline selection:underline-offset-auto print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
                                 {HeaderFirstLetterLN}
                             </span>
                                 )}
                                 {/* eslint-disable-next-line @typescript-eslint/no-unnecessary-condition */}
-                                {!HeaderFancyName ? (<span className='selection:no-underline underline underline-offset-auto'>
+                                {!HeaderFancyName ? (<span className='underline underline-offset-auto'>
                                 {HeaderLastName}
                             </span>) : (
-                                    <span className='selection:no-underline underline underline-offset-auto'>
+                                    <span className='underline underline-offset-auto'>
                                 {HeaderNoFirstLetterLN}
                             </span>
                                 )}
