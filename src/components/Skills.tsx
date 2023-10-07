@@ -5,7 +5,7 @@ const Skills = () => {
         <>
             <section>
                 <div className='bg-background'>
-                    <h2 className='text-lg text-foreground font-bold print:mt-[2.5%]'>SKILLS</h2>
+                    <h2 className='text-lg text-foreground font-bold print:mt-[2.5%] pointer-events-none'>SKILLS</h2>
                     {SkillsData.map((skills, id) => (
                         <div key={id}>
                             <div>
@@ -14,7 +14,7 @@ const Skills = () => {
                                     <ul className='flex flex-wrap gap-[0.75%]'>
                                         {skills.SkillsName.map((skillname, id) => (
                                             <li key={id}
-                                                className='print:text-foreground print:border text-xs bg-secondary text-background px-[1%] mb-[1%]'>{skillname}</li>
+                                                className='pointer-events-none print:text-foreground print:border text-xs bg-secondary text-background px-[1%] mb-[1%]'>{skillname}</li>
                                         ))}
                                     </ul>
                                 </div>

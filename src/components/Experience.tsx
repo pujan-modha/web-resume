@@ -6,12 +6,12 @@ const Experience = () => {
         <>
             <section>
                 <div className='bg-background'>
-                    <h2 className='text-lg text-foreground font-bold print:mt-[2.5%]'>EXPERIENCE</h2>
+                    <h2 className='text-lg text-foreground font-bold print:mt-[2.5%] pointer-events-none'>EXPERIENCE</h2>
                     {ExperienceData.map((experience, id) => (
                         <div className='mb-[2.5%]' key={id}>
                             <div className='grid print:grid-cols-2 md:grid-cols-2'>
                                 <div>
-                                    <p className='font-semibold text-primary'>{experience.ExperienceOrganization}<span> | </span>{experience.ExperienceWorkTitle}</p>
+                                    <p className='font-semibold text-primary'>{experience.ExperienceOrganization}<span className='select-none'> | </span>{experience.ExperienceWorkTitle}</p>
                                     <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
                                         <p className='gap-[1%] text-xs text-secondary italic'>(<span>{experience.ExperienceLocation}</span>)</p>
                                     </div>
@@ -33,7 +33,7 @@ const Experience = () => {
                             <div className='text-sm text-primary'>
                                 <ul>
                                     {experience.ExperienceDescription.map((experiencedescription, id) => (
-                                        <li key={id}><span className='text-secondary'> › </span>{experiencedescription}</li>
+                                        <li key={id}><span className='text-secondary font-semibold opacity-75 select-none'> › </span>{experiencedescription}</li>
                                     ))}
                                 </ul>
                             </div>

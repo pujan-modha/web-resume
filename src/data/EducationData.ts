@@ -8,7 +8,7 @@ export const EducationData = [
         EducationHasMinor: false,
         EducationMinor: "",
         EducationHasSpecialization: true,
-        EducationSpecialization: "NoSQL DB Management",
+        EducationSpecialization: "Data Filtering",
         EducationGPA: "8.47",
     },
     {
