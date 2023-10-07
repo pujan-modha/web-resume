@@ -16,7 +16,7 @@ const Header = () => {
                             <span>
                                 {/* eslint-disable-next-line @typescript-eslint/no-unnecessary-condition */}
                                 {!HeaderFancyName ? ("") : (
-                                    <span className='selection:tracking-normal selection:underline selection:underline-offset-auto print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
+                                    <span className='select-none print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
                                 {HeaderFirstLetterFN}
                             </span>
                                 )}
@@ -31,7 +31,7 @@ const Header = () => {
                                 <span className='-tracking-widest no-underline'> </span>
                                 {/* eslint-disable-next-line @typescript-eslint/no-unnecessary-condition */}
                                 {!HeaderFancyName ? ("") : (
-                                    <span className='selection:tracking-normal selection:underline selection:underline-offset-auto print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
+                                    <span className='select-none print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
                                 {HeaderFirstLetterLN}
                             </span>
                                 )}
