@@ -1,6 +1,6 @@
 export const CertificationsData = [
     {
-        certificationCourseName : "Problem solving using HTML",
+        certificationCourseName : "Problem solving using CSS",
         certificationHaveCourseLink : true,
         certificationCoursePlatformName : "Coursera",
         certificationLinkToCourse : "/",
@@ -16,7 +16,7 @@ export const CertificationsData = [
         certificationLinkToCertificate : "/",
     },
     {
-        certificationCourseName : "Big CSS Analysis using Typescript",
+        certificationCourseName : "Big HTML Analysis using Typescript",
         certificationHaveCourseLink : false,
         certificationCoursePlatformName : "Linkedin",
         certificationLinkToCourse : "/",

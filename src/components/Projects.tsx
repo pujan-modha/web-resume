@@ -19,19 +19,19 @@ const Projects = () => {
                                             {!project.ProjectHasLink ? (<span>{project.ProjectName}
                                 </span>) : (<a href={project.ProjectLink} target="_noref"
                                                className='hover:text-secondary hover:underline'>{project.ProjectName}
-                                                <span className='text-primary font-light opacity-50'>↗</span>
+                                                <span className='text-primary font-light opacity-50 print:hidden'>↗</span>
                                             </a>)}
                                         </span>
                                         {!project.ProjectHasGitHub ? ("") : (<span><span className='text-primary opacity-50 font-thin text-sm'> | </span><a href={project.ProjectGitHubLink} target='_noref' className='opacity-75 hover:opacity-100'><FontAwesomeIcon
                                             icon={faGithub} style={{color: "#6272a4"}}/><span
-                                            className='text-primary opacity-50 font-thin text-sm'>↗</span></a></span>)}
+                                            className='text-primary opacity-50 font-thin text-sm print:hidden'>↗</span></a></span>)}
                                         {!project.ProjectHasGitLab ? ("") : (<span><span
                                             className='text-primary'><span className='text-primary opacity-50 font-thin text-sm'> | </span></span><a href='/' target='_noref' className='opacity-75 hover:opacity-100'><FontAwesomeIcon
                                             icon={faGitlab} style={{color: "#6272a4"}}/><span
-                                            className='text-primary opacity-50 font-thin text-sm'>↗</span></a></span>)}
+                                            className='text-primary opacity-50 font-thin text-sm print:hidden'>↗</span></a></span>)}
                                         {!project.ProjectHasOtherLink ? ("") : (<span><span className='text-primary opacity-50 font-thin text-sm'> | </span><a href='/' target='_noref' className='opacity-75 hover:opacity-100'><FontAwesomeIcon
                                             icon={faCode} style={{color: "#6272a4"}}/><span
-                                            className='text-primary opacity-50 font-thin text-sm'>↗</span></a></span>)}
+                                            className='text-primary opacity-50 font-thin text-sm print:hidden'>↗</span></a></span>)}
                                     </p>
                                     {!project.ProjectHasLocation ? ("") : (
                                         <div>

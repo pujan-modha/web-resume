@@ -14,10 +14,9 @@ const Achievements = () => {
                                     className='font-semibold'>{achievements.achievementMain}</span>
                                         <span> - </span>{achievements.achievementEvent}</span>
                                     {!achievements.achievementHaveCertificate ? ("") : (<span>
-                                        <span> | </span><a href={achievements.achievementLinkToCertificate}
-                                                           target="_noref">(<span
+                                        <span> | </span><a href={achievements.achievementLinkToCertificate} target="_noref">(<span
                                         className='hover:text-primary text-secondary font-light hover:underline'>Certificate<span
-                                        className='text-primary opacity-50'>↗</span></span>)</a>
+                                        className='text-primary opacity-50 print:hidden'>↗</span></span>)</a>
                                 </span>)}
                                 </li>
                             ))}

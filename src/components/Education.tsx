@@ -14,8 +14,7 @@ const Education = () => {
                                 <div>
                                     <div className=''>
                                         <p className='text-secondary font-medium'>{education.EducationCourseName}</p>
-                                        <p className='text-secondary text-sm font-medium italic'>({education.EducationFromTime}<span> - </span>{education.EducationToTime})
-                                        </p>
+                                        <p className='text-secondary text-sm font-medium italic'>({education.EducationFromTime}<span> - </span>{education.EducationToTime})</p>
                                     </div>
                                 </div>
                             </div>

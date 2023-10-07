@@ -13,7 +13,7 @@ export const AchievementsData = [
     },
     {
         achievementMain : "Runner Up",
-        achievementEvent : "CODE-IT-ON by The Compute Club",
+        achievementEvent : "CODE-IT-ON by Compute Club",
         achievementHaveCertificate : false,
         achievementLinkToCertificate : "/",
     },

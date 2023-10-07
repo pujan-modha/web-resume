@@ -31,8 +31,7 @@ const Header = () => {
                                 <span className='-tracking-widest'> </span>
                                 {/* eslint-disable-next-line @typescript-eslint/no-unnecessary-condition */}
                                 {!HeaderFancyName ? ("") : (
-                                    <span
-                                        className='print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
+                                    <span className='print:text-foreground print:tracking-normal print:font-bold bg-foreground text-background tracking-wide font-black print:underline print:underline-offset-auto'>
                                 {HeaderFirstLetterLN}
                             </span>
                                 )}

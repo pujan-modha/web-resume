@@ -16,7 +16,7 @@ const Contact = () => {
                             href={contact.ContactLink}
                             target="_noref"><span
                             className='hover:text-primary text-secondary font-light hover:underline'>{contact.ContactText}<span
-                            className='text-primary opacity-50'>↗</span></span></a></li>
+                            className='text-primary opacity-50 print:hidden'>↗</span></span></a></li>
                         ))}
                     </ul>
                 </div>
