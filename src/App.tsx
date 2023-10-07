@@ -10,7 +10,6 @@ import Certifications from "./components/Certifications.tsx";
 import Achievements from "./components/Achievements.tsx";
 import HorizontalRule from "./components/HorizontalRule.tsx";
 import {HeaderFullName} from "./data/HeaderData.ts";
-export const HeaderFirstName = "PUJAN";
 
 function App() {
     const [title] = useState(HeaderFullName);
