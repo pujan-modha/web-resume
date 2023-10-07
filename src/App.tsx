@@ -19,7 +19,7 @@ function App() {
     });
     return (
         <>
-            <div className='px-[2.5%] md:mx-auto bg-[#44475a] py-[2.5%] print:py-0'>
+            <div className='px-[2.5%] md:mx-auto bg-primary py-[2.5%] print:py-0'>
                 <div className='text-foreground bg-background font-mono box-border max-w-3xl mx-auto print:border-0 border-4 border-foreground w-full'>
                     <Header/>
                     <div className='px-[2.5%]'>
