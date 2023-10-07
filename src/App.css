@@ -7,7 +7,7 @@
 
 @media print {
     @page {
-        size: A4;
+        size: letter;
         margin-left: 0;
         margin-right: 0;
     }
