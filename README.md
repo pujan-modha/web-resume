@@ -1,6 +1,6 @@
 # Web Resume
 
-![web-resume](https://socialify.git.ci/pujan-modha/web-resume/image?font=Jost&forks=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fpujan-modha%2Fweb-resume%2Fmaster%2Fpublic%2Fandroid-chrome-192x192.png&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)
+![web-resume](https://socialify.git.ci/pujan-modha/web-resume/image?font=Jost&forks=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fpujan-modha%2Fweb-resume%2Fmaster%2Fpublic%2Fweb-resume.png&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)
 
 ---
 
