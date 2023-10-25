@@ -12,8 +12,8 @@ const Projects = () => {
                     <h2 className='text-lg text-foreground font-bold print:mt-[2.5%] pointer-events-none'>PROJECTS</h2>
                     {ProjectsData.map((project, id) => (
                         <div className='mb-[2.5%]' key={id}>
-                            <div className='grid print:grid-cols-2 md:grid-cols-3'>
-                                <div className='md:col-start-1 md:col-span-2'>
+                            <div className='grid print:grid-cols-2 md:grid-cols-2'>
+                                <div>
                                     <p className='font-semibold text-primary'>
                                         <span>
                                             {!project.ProjectHasLink ? (<span>{project.ProjectName}
