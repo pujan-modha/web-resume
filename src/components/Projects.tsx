@@ -78,7 +78,7 @@ const Projects = () => {
                                     <ul className='flex flex-wrap gap-[0.75%]'>
                                         {project.ProjectTechStack.map((projecttechstack, id) => (
                                             <li key={id}
-                                                className='pointer-events-none print:text-foreground print:border text-xs border border-secondary text-secondary px-[1%] md:my-[0.5%]'>{projecttechstack}</li>
+                                                className='pointer-events-none print:text-foreground print:border text-xs border border-secondary text-secondary px-[1%] mb-[1%] md:mb-[0.5%] print:mb-[0.5%]'>{projecttechstack}</li>
                                         ))}
                                     </ul>
                                 </div>
