@@ -50,25 +50,21 @@ const Projects = () => {
                                             icon={faCode} style={{color: "#6272a4"}}/>
                                         </a></span>)}
                                     </p>
-                                    {!project.ProjectHasLocation ? ("") : (
-                                        <div>
-                                            <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
-                                                <p className='gap-[1%] text-xs text-secondary italic'>({project.ProjectLocation})</p>
-                                            </div>
-                                            <MediaQuery minWidth={768}>
-                                                <p className='gap-[1%] text-xs print:hidden text-secondary italic'>({project.ProjectLocation})</p>
-                                            </MediaQuery>
-                                        </div>
-                                    )}
                                 </div>
                                 <div>
                                     <div className='opacity-0 print:opacity-100 h-0 print:h-full'>
-                                        <p className='text-secondary text-xs font-medium print:text-right md:text-right italic'>({project.ProjectTimeFrom}{!project.ProjectHasTimeTo ? (")") : (
-                                            <span><span> - </span>{project.ProjectTimeTo})</span>)}</p>
+                                        <p className='text-secondary text-xs font-medium print:text-right md:text-right italic'>({project.ProjectTimeFrom}{!project.ProjectHasTimeTo ? ("") : (
+                                            <span><span> - </span>{project.ProjectTimeTo}</span>)}
+                                            {!project.ProjectHasLocation ? ("") : (
+                                                <span><span> | </span>{project.ProjectLocation}</span>)}
+                                            )</p>
                                     </div>
                                     <MediaQuery minWidth={768}>
-                                        <p className='text-secondary text-xs font-medium print:hidden md:text-right italic'>({project.ProjectTimeFrom}{!project.ProjectHasTimeTo ? (")") : (
-                                            <span><span> - </span>{project.ProjectTimeTo})</span>)}</p>
+                                        <p className='text-secondary text-xs font-medium print:hidden md:text-right italic'>({project.ProjectTimeFrom}{!project.ProjectHasTimeTo ? ("") : (
+                                            <span><span> - </span>{project.ProjectTimeTo}</span>)}
+                                            {!project.ProjectHasLocation ? ("") : (
+                                                <span><span> | </span>{project.ProjectLocation}</span>)}
+                                            )</p>
                                     </MediaQuery>
                                     <p className='text-secondary text-xs font-medium print:text-right md:hidden print:hidden italic'>({project.ProjectTimeFrom}{!project.ProjectHasTimeTo ? ("") : (
                                         <span><span> - </span>{project.ProjectTimeTo}</span>)}
